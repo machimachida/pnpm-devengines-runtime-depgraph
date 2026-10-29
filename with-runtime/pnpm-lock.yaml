@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       debug:
-        specifier: 4.4.1
-        version: 4.4.1
+        specifier: ^4.4.1
+        version: 4.4.3
     devDependencies:
       node:
         specifier: runtime:^24.0.0
@@ -18,8 +18,8 @@ importers:
 
 packages:
 
-  debug@4.4.1:
-    resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -164,7 +164,7 @@ packages:
 
 snapshots:
 
-  debug@4.4.1:
+  debug@4.4.3:
     dependencies:
       ms: 2.1.3
 

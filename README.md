@@ -10,7 +10,9 @@ when `package.json` sets `devEngines.runtime`.
 | `without-runtime/` | no                   | single YAML document, no `node@runtime`   |
 
 Both lockfiles were written by `pnpm install --lockfile-only` with pnpm 11.11.0.
-The only dependency is `debug` (which depends on `ms`).
+Each directory has a different single dependency, so the SBOM shows which lockfile was read:
+`with-runtime/` depends on `debug` (which depends on `ms`), and
+`without-runtime/` depends on `is-odd` (which depends on `is-number`).
 
 Check which manifests the dependency graph recognises:
 
